@@ -43,7 +43,7 @@
       <ul class="flex-col md:flex-row list-none items-center hidden md:flex">
         <div class="items-center flex">
           <span
-            class="w-12 h-12 text-sm text-white bg-gray-300 inline-flex items-center justify-center rounded-full"
+            class="w-12 h-12 text-sm text-white bg-gray-300 inline-flex items-center justify-center rounded-full cursor-pointer"
           >
             <img
               alt="..."

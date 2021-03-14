@@ -19,7 +19,7 @@
                         class="relative w-full pr-4 max-w-full flex-grow flex-1"
                       >
                         <h5 class="text-gray-500 uppercase font-bold text-xs">
-                          Traffic
+                          Button 1
                         </h5>
                         <span class="font-semibold text-xl text-gray-800">
                           350,897
@@ -29,16 +29,23 @@
                         <div
                           class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-500"
                         >
-                          <i class="far fa-chart-bar"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                            />
+                          </svg>
                         </div>
                       </div>
                     </div>
-                    <p class="text-sm text-gray-500 mt-4">
-                      <span class="text-green-500 mr-2">
-                        <i class="fas fa-arrow-up"></i> 3.48%
-                      </span>
-                      <span class="whitespace-no-wrap"> Since last month </span>
-                    </p>
+                    <p class="text-sm text-gray-500 mt-4"></p>
                   </div>
                 </div>
               </div>
@@ -52,7 +59,7 @@
                         class="relative w-full pr-4 max-w-full flex-grow flex-1"
                       >
                         <h5 class="text-gray-500 uppercase font-bold text-xs">
-                          New users
+                          Button 2
                         </h5>
                         <span class="font-semibold text-xl text-gray-800">
                           2,356
@@ -62,16 +69,29 @@
                         <div
                           class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-orange-500"
                         >
-                          <i class="fas fa-chart-pie"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
+                            />
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
+                            />
+                          </svg>
                         </div>
                       </div>
                     </div>
-                    <p class="text-sm text-gray-500 mt-4">
-                      <span class="text-red-500 mr-2">
-                        <i class="fas fa-arrow-down"></i> 3.48%
-                      </span>
-                      <span class="whitespace-no-wrap"> Since last week </span>
-                    </p>
+                    <p class="text-sm text-gray-500 mt-4"></p>
                   </div>
                 </div>
               </div>
@@ -85,7 +105,7 @@
                         class="relative w-full pr-4 max-w-full flex-grow flex-1"
                       >
                         <h5 class="text-gray-500 uppercase font-bold text-xs">
-                          Sales
+                          Button 3
                         </h5>
                         <span class="font-semibold text-xl text-gray-800">
                           924
@@ -95,16 +115,23 @@
                         <div
                           class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-pink-500"
                         >
-                          <i class="fas fa-users"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
+                            />
+                          </svg>
                         </div>
                       </div>
                     </div>
-                    <p class="text-sm text-gray-500 mt-4">
-                      <span class="text-orange-500 mr-2">
-                        <i class="fas fa-arrow-down"></i> 1.10%
-                      </span>
-                      <span class="whitespace-no-wrap"> Since yesterday </span>
-                    </p>
+                    <p class="text-sm text-gray-500 mt-4"></p>
                   </div>
                 </div>
               </div>
@@ -118,26 +145,33 @@
                         class="relative w-full pr-4 max-w-full flex-grow flex-1"
                       >
                         <h5 class="text-gray-500 uppercase font-bold text-xs">
-                          Performance
+                          Button 4
                         </h5>
                         <span class="font-semibold text-xl text-gray-800">
-                          49,65%
+                          49.65%
                         </span>
                       </div>
                       <div class="relative w-auto pl-4 flex-initial">
                         <div
                           class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-blue-500"
                         >
-                          <i class="fas fa-percent"></i>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"
+                            />
+                          </svg>
                         </div>
                       </div>
                     </div>
-                    <p class="text-sm text-gray-500 mt-4">
-                      <span class="text-green-500 mr-2">
-                        <i class="fas fa-arrow-up"></i> 12%
-                      </span>
-                      <span class="whitespace-no-wrap"> Since last month </span>
-                    </p>
+                    <p class="text-sm text-gray-500 mt-4"></p>
                   </div>
                 </div>
               </div>
@@ -151,173 +185,9 @@
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
             >
-              <div class="rounded-t mb-0 px-4 py-3 border-0">
-                <div class="flex flex-wrap items-center">
-                  <div class="relative w-full px-4 max-w-full flex-grow flex-1">
-                    <h3 class="font-semibold text-base text-gray-800">
-                      Page visits
-                    </h3>
-                  </div>
-                  <div
-                    class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
-                  >
-                    <button
-                      class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style="transition: all 0.15s ease"
-                    >
-                      See all
-                    </button>
-                  </div>
-                </div>
-              </div>
               <div class="block w-full overflow-x-auto">
                 <!-- Projects table -->
-                <!-- <table
-                  class="items-center w-full bg-transparent border-collapse"
-                >
-                  <thead>
-                    <tr>
-                      <th
-                        class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                      >
-                        Page name
-                      </th>
-                      <th
-                        class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                      >
-                        Visitors
-                      </th>
-                      <th
-                        class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                      >
-                        Unique users
-                      </th>
-                      <th
-                        class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
-                      >
-                        Bounce rate
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                      >
-                        /argon/
-                      </th>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        4,569
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        340
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        <i class="fas fa-arrow-up text-green-500 mr-4"></i>
-                        46,53%
-                      </td>
-                    </tr>
-                    <tr>
-                      <th
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                      >
-                        /argon/index.html
-                      </th>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        3,985
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        319
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
-                        46,53%
-                      </td>
-                    </tr>
-                    <tr>
-                      <th
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                      >
-                        /argon/charts.html
-                      </th>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        3,513
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        294
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
-                        36,49%
-                      </td>
-                    </tr>
-                    <tr>
-                      <th
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                      >
-                        /argon/tables.html
-                      </th>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        2,050
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        147
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        <i class="fas fa-arrow-up text-green-500 mr-4"></i>
-                        50,87%
-                      </td>
-                    </tr>
-                    <tr>
-                      <th
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
-                      >
-                        /argon/profile.html
-                      </th>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        1,795
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        190
-                      </td>
-                      <td
-                        class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
-                      >
-                        <i class="fas fa-arrow-down text-red-500 mr-4"></i>
-                        46,53%
-                      </td>
-                    </tr>
-                  </tbody>
-                </table> -->
+                <div class="h-screen">canvas div</div>
               </div>
             </div>
           </div>
@@ -325,29 +195,9 @@
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
             >
-              <div class="rounded-t mb-0 px-4 py-3 border-0">
-                <div class="flex flex-wrap items-center">
-                  <div class="relative w-full px-4 max-w-full flex-grow flex-1">
-                    <h3 class="font-semibold text-base text-gray-800">
-                      Social traffic
-                    </h3>
-                  </div>
-                  <div
-                    class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
-                  >
-                    <button
-                      class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style="transition: all 0.15s ease"
-                    >
-                      See all
-                    </button>
-                  </div>
-                </div>
-              </div>
               <div class="block w-full overflow-x-auto">
                 <!-- Projects table -->
-                <!-- <table
+                <table
                   class="items-center w-full bg-transparent border-collapse"
                 >
                   <thead class="thead-light">
@@ -489,7 +339,7 @@
                       <th
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
                       >
-                        twitter
+                        Twitter
                       </th>
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
@@ -515,7 +365,7 @@
                       </td>
                     </tr>
                   </tbody>
-                </table> -->
+                </table>
               </div>
             </div>
           </div>
