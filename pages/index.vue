@@ -205,12 +205,12 @@
                       <th
                         class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
                       >
-                        Referral
+                        Header 1
                       </th>
                       <th
                         class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
                       >
-                        Visitors
+                        Header 2
                       </th>
                       <th
                         class="px-6 bg-gray-100 text-gray-600 align-middle border border-solid border-gray-200 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-no-wrap font-semibold text-left"
@@ -223,7 +223,7 @@
                       <th
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
                       >
-                        Facebook
+                        Row 1
                       </th>
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
@@ -252,7 +252,7 @@
                       <th
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
                       >
-                        Facebook
+                        Row 2
                       </th>
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
@@ -281,7 +281,7 @@
                       <th
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
                       >
-                        Google
+                        Row 3
                       </th>
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
@@ -310,7 +310,7 @@
                       <th
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
                       >
-                        Instagram
+                        Row 4
                       </th>
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
@@ -339,7 +339,7 @@
                       <th
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4 text-left"
                       >
-                        Twitter
+                        Row 5
                       </th>
                       <td
                         class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-no-wrap p-4"
