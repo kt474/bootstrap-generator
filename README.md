@@ -1,4 +1,4 @@
-# tailwind-generator
+# bootstrap-generator
 
 ## Build Setup
 
