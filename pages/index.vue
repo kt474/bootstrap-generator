@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <Navbar />
+  <div class="container-fluid main">
+    <div class="row main-row">
+      <Sidebar class="col-sm-3 main-col" />
+      <Navbar class="col-sm-9 main-col" />
+    </div>
   </div>
 </template>
 
@@ -12,10 +15,16 @@ export default {
 }
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+<style scoped>
+.main {
+  padding: 0;
+  height: 100vh;
+  background-color: #f3f4f6;
 }
-*/
+.main-row {
+  height: 100%;
+}
+.main-col {
+  padding: 0;
+}
 </style>
