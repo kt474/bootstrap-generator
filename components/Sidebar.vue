@@ -15,13 +15,23 @@
         <div class="divider"></div>
         <b-nav vertical class="nav-list">
           <h5 class="my-3">Components</h5>
-          <p>Accordian</p>
-          <p>Alerts</p>
-          <p>Badge</p>
-          <p>Buttons</p>
-          <p>Button group</p>
-          <p>Card</p>
-          <p>Card</p>
+          <draggable
+            v-model="components"
+            :group="{
+              name: 'people',
+              pull: 'clone',
+              put: false,
+            }"
+            :options="{ sort: false }"
+          >
+            <p
+              v-for="component in components"
+              :key="component.id"
+              class="component-text"
+            >
+              {{ component.name }}
+            </p>
+          </draggable>
         </b-nav>
         <div class="divider"></div>
       </nav>
@@ -29,12 +39,27 @@
   </div>
 </template>
 <script>
-export default {}
+export default {
+  data() {
+    return {}
+  },
+  computed: {
+    components: {
+      get() {
+        return this.$store.state.bootstrapComponents
+      },
+      set(value) {},
+    },
+  },
+}
 </script>
 <style scoped>
+.component-text {
+  cursor: pointer;
+}
 .sidebar {
-  width: 30%;
   height: 100vh;
+  overflow: auto;
   background-color: #fff;
 }
 .divider {

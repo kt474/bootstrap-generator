@@ -27,4 +27,7 @@ export default {
   padding: 0;
   background-color: #f3f4f6;
 }
+.padding-reset {
+  padding: 0;
+}
 </style>
