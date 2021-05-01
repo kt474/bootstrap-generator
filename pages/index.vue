@@ -1,8 +1,15 @@
 <template>
   <div class="container-fluid main">
-    <div class="row main-row">
-      <Sidebar class="col-sm-3 main-col" />
-      <Navbar class="col-sm-9 main-col" />
+    <div class="row">
+      <Sidebar class="col-sm-2" />
+      <div class="col-sm-10">
+        <div class="row">
+          <Navbar class="col" />
+        </div>
+        <div class="row">
+          <Canvas class="col" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -18,13 +25,6 @@ export default {
 <style scoped>
 .main {
   padding: 0;
-  height: 100vh;
   background-color: #f3f4f6;
-}
-.main-row {
-  height: 100%;
-}
-.main-col {
-  padding: 0;
 }
 </style>

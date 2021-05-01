@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <b-navbar toggleable="lg" class="nav-bar">
       <b-navbar-brand href="#" class="nav-bar-text-bold">NavBar</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -14,12 +14,6 @@
           <b-navbar-nav>
             <b-nav-item href="#" class="nav-bar-text">Settings</b-nav-item>
           </b-navbar-nav>
-          <!-- <b-nav-item-dropdown text="Settings" class="nav-bar-text" right>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown> -->
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -30,8 +24,8 @@ export default {}
 </script>
 <style scoped>
 .nav-bar {
-  background-color: #ef4444;
-  padding-bottom: 12rem;
+  background-color: #5e72e4;
+  /* padding-bottom: 1rem; */
 }
 .nav-bar-text-bold {
   color: #fff !important;
@@ -39,5 +33,8 @@ export default {}
 }
 .nav-bar-text a {
   color: #fff !important;
+}
+.main {
+  width: 100%;
 }
 </style>

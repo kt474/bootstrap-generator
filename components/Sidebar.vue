@@ -1,7 +1,9 @@
 <template>
   <div class="sidebar">
-    <div class="py-3 px-5">
-      <h4 id="sidebar-no-header-title" class="mb-2">Bootstrap Generator</h4>
+    <div class="py-3 px-4">
+      <h4 id="sidebar-no-header-title" class="mb-2 main-title">
+        Bootstrap Generator
+      </h4>
       <nav class="my-4">
         <b-nav vertical class="nav-list">
           <h5 class="mb-3">Template</h5>
@@ -19,6 +21,7 @@
           <p>Buttons</p>
           <p>Button group</p>
           <p>Card</p>
+          <p>Card</p>
         </b-nav>
         <div class="divider"></div>
       </nav>
@@ -30,16 +33,20 @@ export default {}
 </script>
 <style scoped>
 .sidebar {
-  height: 100%;
+  width: 30%;
+  height: 100vh;
   background-color: #fff;
 }
 .divider {
   width: 100%;
   height: 2px;
-  background-color: #91a6ff;
+  background-color: #d30c7b;
 }
 .nav-list h5,
 p {
   color: #4b5563;
+}
+.main-title {
+  color: #5e72e4;
 }
 </style>
