@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-generator",
+  "name": "bootstrap-generator",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12"
   },
