@@ -5,7 +5,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#" class="nav-bar-text">Link 1</b-nav-item>
+          <b-nav-item href="#" class="nav-bar-text">Export</b-nav-item>
           <b-nav-item href="#" class="nav-bar-text">Link 2</b-nav-item>
           <b-nav-item href="#" class="nav-bar-text">Link 3</b-nav-item>
         </b-navbar-nav>
@@ -20,7 +20,13 @@
   </div>
 </template>
 <script>
-export default {}
+export default {
+  computed: {
+    currentHtml() {
+      return null
+    },
+  },
+}
 </script>
 <style scoped>
 .nav-bar {
