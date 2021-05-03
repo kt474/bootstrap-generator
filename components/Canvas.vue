@@ -1,6 +1,6 @@
 <template>
   <div class="canvas-main">
-    <draggable v-model="myList" class="list-group" group="people">
+    <draggable v-model="myList" group="people">
       <div
         v-for="(element, index) in myList"
         :key="index"
